@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642508468023,
+  "lastUpdate": 1642514287048,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -245,6 +245,90 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 168801332,
             "range": "± 9140881",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "e858886669507094908a885d3877e67d8b411d0e",
+          "message": "Fix bug with USE_SHADOW_POINTS in NaiveContours\n\nWe must prune the point from multiple layers, not just the current one.",
+          "timestamp": "2022-01-18T14:52:09+01:00",
+          "tree_id": "b21a548407c3a9463f248aa1e715afb72bd5af5c",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/e858886669507094908a885d3877e67d8b411d0e"
+        },
+        "date": 1642514286240,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 176232,
+            "range": "± 1920",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 1302257,
+            "range": "± 506770",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 18928007,
+            "range": "± 341981",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 18014253,
+            "range": "± 249004",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 149384938,
+            "range": "± 7919950",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 96756,
+            "range": "± 1017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 1272317,
+            "range": "± 14097",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 17096245,
+            "range": "± 153319",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000_prune_less",
+            "value": 17636009,
+            "range": "± 150206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 153628955,
+            "range": "± 15238683",
             "unit": "ns/iter"
           }
         ]
