@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642508018715,
+  "lastUpdate": 1642508073633,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -107,6 +107,60 @@ window.BENCHMARK_DATA = {
             "name": "base_50000_similar",
             "value": 244217692,
             "range": "± 4803278",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "1c32d31f29b97187a66bd9b00f72ab03ae1145d2",
+          "message": "Move LogQueryContour and NaiveContours to their own files",
+          "timestamp": "2022-01-18T13:09:36+01:00",
+          "tree_id": "163a921ba6d11e908c7a9a668922f48fdfa83bd0",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/1c32d31f29b97187a66bd9b00f72ab03ae1145d2"
+        },
+        "date": 1642508072912,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 179186,
+            "range": "± 6136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 1964523,
+            "range": "± 22952",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 22619897,
+            "range": "± 825959",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 22300826,
+            "range": "± 754930",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 150650036,
+            "range": "± 5867846",
             "unit": "ns/iter"
           }
         ]
