@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642540902301,
+  "lastUpdate": 1642591415248,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -917,6 +917,60 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 146027424,
             "range": "± 6354262",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "11cc158661e52ff20b4e2806a0bb477adbc0b198",
+          "message": "Replace calls to h by h_with_hint in pruning",
+          "timestamp": "2022-01-19T12:18:42+01:00",
+          "tree_id": "5f37756a8b04aebdccdd29ac7810cee3ed4f1061",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/11cc158661e52ff20b4e2806a0bb477adbc0b198"
+        },
+        "date": 1642591414193,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 171718,
+            "range": "± 1736",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 1265789,
+            "range": "± 18134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 22234317,
+            "range": "± 2466494",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 21057266,
+            "range": "± 3224066",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 152614362,
+            "range": "± 8236778",
             "unit": "ns/iter"
           }
         ]
