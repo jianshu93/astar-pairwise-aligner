@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642759760310,
+  "lastUpdate": 1642760690035,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -1475,6 +1475,138 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 102128170,
             "range": "± 5514330",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "fe3867417d71850e661b1cec5e8d6c916449936a",
+          "message": "Add find_matches benchmarks",
+          "timestamp": "2022-01-21T11:17:49+01:00",
+          "tree_id": "972b696bca9e34920b391ac8628ea7269e7e61bb",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/fe3867417d71850e661b1cec5e8d6c916449936a"
+        },
+        "date": 1642760689168,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 81632,
+            "range": "± 22937",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 1414419,
+            "range": "± 260152",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 22171862,
+            "range": "± 3760666",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 21255935,
+            "range": "± 4135931",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 97048902,
+            "range": "± 7731949",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 84153,
+            "range": "± 13527",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 1333140,
+            "range": "± 239544",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 18966815,
+            "range": "± 3860096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000_prune_less",
+            "value": 19031615,
+            "range": "± 2757869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 90097740,
+            "range": "± 18483783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_qgramindex",
+            "value": 13486908,
+            "range": "± 3503010",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_trie",
+            "value": 1820180,
+            "range": "± 319552",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_qgramindex",
+            "value": 24735734,
+            "range": "± 6373329",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_trie",
+            "value": 8723545,
+            "range": "± 1146336",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_qgramindex",
+            "value": 8791,
+            "range": "± 1439",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_trie",
+            "value": 11463,
+            "range": "± 1722",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_qgramindex",
+            "value": 72273,
+            "range": "± 11163",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_trie",
+            "value": 36764,
+            "range": "± 6662",
             "unit": "ns/iter"
           }
         ]
