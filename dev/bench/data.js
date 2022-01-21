@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642778453172,
+  "lastUpdate": 1642783964211,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -2003,6 +2003,138 @@ window.BENCHMARK_DATA = {
             "name": "n100_inexact_trie",
             "value": 34913,
             "range": "± 6447",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pesho@inf.ethz.ch",
+            "name": "Pesho Ivanov",
+            "username": "pesho-ivanov"
+          },
+          "committer": {
+            "email": "pesho@inf.ethz.ch",
+            "name": "Pesho Ivanov",
+            "username": "pesho-ivanov"
+          },
+          "distinct": true,
+          "id": "f992883a725ccf9372caea0bb65e7c8fb4b5c5db",
+          "message": "refactor snakemake",
+          "timestamp": "2022-01-21T17:46:59+01:00",
+          "tree_id": "205e38def27ef2adb0a89ee3dbd54f7c69e9fa73",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/f992883a725ccf9372caea0bb65e7c8fb4b5c5db"
+        },
+        "date": 1642783963187,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 73665,
+            "range": "± 889",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 1409858,
+            "range": "± 8900",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 20516285,
+            "range": "± 521239",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 19723864,
+            "range": "± 558203",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 95095337,
+            "range": "± 7284123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 71300,
+            "range": "± 809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 1257956,
+            "range": "± 6602",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 17614945,
+            "range": "± 381692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000_prune_less",
+            "value": 16897056,
+            "range": "± 619974",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 91536064,
+            "range": "± 10472023",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_qgramindex",
+            "value": 12643219,
+            "range": "± 1691143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_trie",
+            "value": 1466429,
+            "range": "± 14636",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_qgramindex",
+            "value": 23856054,
+            "range": "± 3857251",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_trie",
+            "value": 8470615,
+            "range": "± 305783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_qgramindex",
+            "value": 7253,
+            "range": "± 59",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_trie",
+            "value": 10705,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_qgramindex",
+            "value": 50036,
+            "range": "± 194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_trie",
+            "value": 31577,
+            "range": "± 1041",
             "unit": "ns/iter"
           }
         ]
