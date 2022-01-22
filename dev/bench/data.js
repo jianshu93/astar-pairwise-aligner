@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642790223563,
+  "lastUpdate": 1642862751016,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -2399,6 +2399,372 @@ window.BENCHMARK_DATA = {
             "name": "n100_inexact_trie",
             "value": 30244,
             "range": "± 689",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "7f96dde0f7a04ed2468abe5637cf5627ff9e0d89",
+          "message": "INEXACT MATCHES USING HASHING",
+          "timestamp": "2022-01-22T15:36:21+01:00",
+          "tree_id": "205de937a487d95c3cd7984dd90cb704e668486c",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/7f96dde0f7a04ed2468abe5637cf5627ff9e0d89"
+        },
+        "date": 1642862750134,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 40109,
+            "range": "± 6255",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 891594,
+            "range": "± 161246",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 14117260,
+            "range": "± 1195298",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 13037864,
+            "range": "± 1670132",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 45033217,
+            "range": "± 5798440",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 41545,
+            "range": "± 6860",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 824450,
+            "range": "± 117156",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 10661646,
+            "range": "± 1383252",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000_prune_less",
+            "value": 9855657,
+            "range": "± 1435415",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 42029163,
+            "range": "± 5208692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_aho_corasick",
+            "value": 1039906,
+            "range": "± 182308",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_hash",
+            "value": 171018,
+            "range": "± 23195",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_qgramindex",
+            "value": 974282,
+            "range": "± 137869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_exact_trie",
+            "value": 1363315,
+            "range": "± 72104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_lookup_seeds_in_qgram_hashmap",
+            "value": 141598,
+            "range": "± 13898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_lookup_suffixes_in_qgram_hashmap",
+            "value": 88395,
+            "range": "± 7893",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_aho_corasick",
+            "value": 13653,
+            "range": "± 2167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_hash",
+            "value": 1466,
+            "range": "± 244",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_qgramindex",
+            "value": 96049,
+            "range": "± 11219",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_exact_trie",
+            "value": 11468,
+            "range": "± 1722",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_lookup_seeds_in_qgram_hashmap",
+            "value": 1231,
+            "range": "± 193",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_lookup_suffixes_in_qgram_hashmap",
+            "value": 776,
+            "range": "± 109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100000_am_in_b",
+            "value": 14317122,
+            "range": "± 2026695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100000_am_in_b_dedup",
+            "value": 33324202,
+            "range": "± 4011527",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100000_inexact_hash",
+            "value": 32012294,
+            "range": "± 6420706",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_am_in_b",
+            "value": 1066703,
+            "range": "± 135605",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_am_in_b_dedup",
+            "value": 2922887,
+            "range": "± 323394",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_in_am",
+            "value": 2512647,
+            "range": "± 273089",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_hash",
+            "value": 1775586,
+            "range": "± 162846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_inexact_trie",
+            "value": 7545180,
+            "range": "± 1029634",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_am_in_b",
+            "value": 8733,
+            "range": "± 1245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_am_in_b_dedup",
+            "value": 14890,
+            "range": "± 2175",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_in_am",
+            "value": 16893,
+            "range": "± 2096",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_hash",
+            "value": 22519,
+            "range": "± 3600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_inexact_trie",
+            "value": 23456,
+            "range": "± 4945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_a_build_trie_on_seeds",
+            "value": 112147,
+            "range": "± 17250",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_a_hashmap",
+            "value": 27430,
+            "range": "± 3925",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_a_hashmap_qgrams",
+            "value": 27628,
+            "range": "± 3491",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_a_sort_seeds",
+            "value": 96652,
+            "range": "± 11935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_build_trie",
+            "value": 965745,
+            "range": "± 147241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_hashmap",
+            "value": 1411101,
+            "range": "± 242441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_hashmap_qgrams",
+            "value": 103398,
+            "range": "± 17156",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_qgramindex",
+            "value": 172758,
+            "range": "± 23314",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_suffix_array",
+            "value": 857526,
+            "range": "± 118629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_suffix_array_2",
+            "value": 992748,
+            "range": "± 136961",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n10000_b_suffix_array_sort",
+            "value": 1073666,
+            "range": "± 153137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_a_build_trie_on_seeds",
+            "value": 1205,
+            "range": "± 168",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_a_hashmap",
+            "value": 244,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_a_hashmap_qgrams",
+            "value": 364,
+            "range": "± 66",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_a_sort_seeds",
+            "value": 293,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_build_trie",
+            "value": 8370,
+            "range": "± 1556",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_hashmap",
+            "value": 1669,
+            "range": "± 231",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_hashmap_qgrams",
+            "value": 1017,
+            "range": "± 166",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_qgramindex",
+            "value": 90115,
+            "range": "± 13318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_suffix_array",
+            "value": 6410,
+            "range": "± 1000",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_suffix_array_2",
+            "value": 5189,
+            "range": "± 752",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n100_b_suffix_array_sort",
+            "value": 4545,
+            "range": "± 634",
             "unit": "ns/iter"
           }
         ]
