@@ -2156,18 +2156,6 @@ window.BENCHMARK_DATA = {
             range: "± 5208692",
             unit: "ns/iter",
           },
-          {
-            name: "n10000_aho_corasick",
-            value: 1039906,
-            range: "± 182308",
-            unit: "ns/iter",
-          },
-          {
-            name: "n10000_exact_hash",
-            value: 171018,
-            range: "± 23195",
-            unit: "ns/iter",
-          },
         ],
       },
     ],
