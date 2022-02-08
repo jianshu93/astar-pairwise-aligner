@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644340651544,
+  "lastUpdate": 1644342240049,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -5171,6 +5171,90 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 37496278,
             "range": "± 2564064",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "d063b0363a8bfa593f28092f879acdeeaa1719b3",
+          "message": "N1e7 tools table",
+          "timestamp": "2022-02-08T18:39:28+01:00",
+          "tree_id": "e7133508123416e6b34288b6dc33c07568d6d36c",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/d063b0363a8bfa593f28092f879acdeeaa1719b3"
+        },
+        "date": 1644342238929,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 38893,
+            "range": "± 363",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 897680,
+            "range": "± 4689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 14360103,
+            "range": "± 217469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000_prune_less",
+            "value": 14386221,
+            "range": "± 237986",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 48400834,
+            "range": "± 3201355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 41366,
+            "range": "± 221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 792413,
+            "range": "± 4536",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 11082431,
+            "range": "± 148406",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000_prune_less",
+            "value": 11116073,
+            "range": "± 213235",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 39773071,
+            "range": "± 4168415",
             "unit": "ns/iter"
           }
         ]
