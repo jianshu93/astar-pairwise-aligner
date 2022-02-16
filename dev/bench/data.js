@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645031856180,
+  "lastUpdate": 1645034466074,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -7739,6 +7739,42 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 34071012,
             "range": "± 2439198",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "6d998931de1559ceac7e9a1c2ee2e22e47eba6c6",
+          "message": "Replace start_of_seed by seed_at vector",
+          "timestamp": "2022-02-16T18:57:39+01:00",
+          "tree_id": "9b5f7a10bebed416c1590443eafda296be5e099b",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/6d998931de1559ceac7e9a1c2ee2e22e47eba6c6"
+        },
+        "date": 1645034464994,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 47952,
+            "range": "± 194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 44189,
+            "range": "± 308",
             "unit": "ns/iter"
           }
         ]
