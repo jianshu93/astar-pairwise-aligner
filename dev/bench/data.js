@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645036267172,
+  "lastUpdate": 1645036746902,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -7847,6 +7847,78 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 30594105,
             "range": "± 1031327",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "c6fd8a7d63ee3bc7f0ac38945f4a0bb7cd0eb81d",
+          "message": "Rename is_start_of_seed => is_seed_start_or_end\n\nFor UnorderedHeuristic, pruning happens at the end of matches instead of\nat the start, so the consistency requirements and when prune() is called changes.\nThis is especially needed since UnorderedHeuristic doesn't cover the\nentire length with seeds.",
+          "timestamp": "2022-02-16T19:33:32+01:00",
+          "tree_id": "a2e8b54d284a02751acae314d5a3026bb0108bd4",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/c6fd8a7d63ee3bc7f0ac38945f4a0bb7cd0eb81d"
+        },
+        "date": 1645036745953,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 33192,
+            "range": "± 230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 760639,
+            "range": "± 9141",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 11416262,
+            "range": "± 112114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 31886522,
+            "range": "± 3610176",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 29634,
+            "range": "± 228",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 692898,
+            "range": "± 2862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 11286872,
+            "range": "± 111278",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 29235280,
+            "range": "± 2959575",
             "unit": "ns/iter"
           }
         ]
