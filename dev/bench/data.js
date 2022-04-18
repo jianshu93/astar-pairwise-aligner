@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650297298441,
+  "lastUpdate": 1650298025409,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -9359,6 +9359,78 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 26821056,
             "range": "± 505434",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "d7e01a0cdb8eaa20dacdda30461ef77da9586693",
+          "message": "snakemake: move unused real-data rules to the bottom",
+          "timestamp": "2022-04-18T18:03:33+02:00",
+          "tree_id": "62d5833b248ad7f3934794d40abba5eb5834b63d",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/d7e01a0cdb8eaa20dacdda30461ef77da9586693"
+        },
+        "date": 1650298024491,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 36677,
+            "range": "± 170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 862355,
+            "range": "± 3148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 12546530,
+            "range": "± 77780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 31906946,
+            "range": "± 1813059",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 32459,
+            "range": "± 283",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 770954,
+            "range": "± 2555",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 12250648,
+            "range": "± 56715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 26987579,
+            "range": "± 1798499",
             "unit": "ns/iter"
           }
         ]
