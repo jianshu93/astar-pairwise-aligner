@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650592868366,
+  "lastUpdate": 1650614863678,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -11087,6 +11087,78 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 26811345,
             "range": "± 443406",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "f8e8fa6b230d730e6c517117a0ddee98f3bd55e6",
+          "message": "HOTFIX BUG: BruteForce Contours would grow large with duplicated points????",
+          "timestamp": "2022-04-22T10:03:42+02:00",
+          "tree_id": "767037cde1702a1f61a7c73023dd563039cb83cd",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/f8e8fa6b230d730e6c517117a0ddee98f3bd55e6"
+        },
+        "date": 1650614862775,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 36235,
+            "range": "± 136",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 853898,
+            "range": "± 3101",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 12503411,
+            "range": "± 35354",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 30759633,
+            "range": "± 1616828",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 33155,
+            "range": "± 93",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 762767,
+            "range": "± 2184",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 12139583,
+            "range": "± 21239",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 26157137,
+            "range": "± 541770",
             "unit": "ns/iter"
           }
         ]
