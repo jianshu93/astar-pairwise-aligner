@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650614863678,
+  "lastUpdate": 1650735886748,
   "repoUrl": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner",
   "entries": {
     "Rust Benchmark": [
@@ -11159,6 +11159,78 @@ window.BENCHMARK_DATA = {
             "name": "fast_50000_similar",
             "value": 26157137,
             "range": "± 541770",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "committer": {
+            "email": "ragnar.grootkoerkamp@gmail.com",
+            "name": "Ragnar Groot Koerkamp",
+            "username": "RagnarGrootKoerkamp"
+          },
+          "distinct": true,
+          "id": "ba895d2dc7620a97d040ca3013c07c6b540c3a0b",
+          "message": "FIX HINT_CONTOURS BUG: It was pushing already present points on contour layers",
+          "timestamp": "2022-04-23T19:40:43+02:00",
+          "tree_id": "972aafca2bab5083023870741fbf07d5f55a87c7",
+          "url": "https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner/commit/ba895d2dc7620a97d040ca3013c07c6b540c3a0b"
+        },
+        "date": 1650735885550,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "base_100",
+            "value": 36407,
+            "range": "± 301",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_1000",
+            "value": 856041,
+            "range": "± 14230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_10000",
+            "value": 12740363,
+            "range": "± 258903",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "base_50000_similar",
+            "value": 34739561,
+            "range": "± 3997333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_100",
+            "value": 31679,
+            "range": "± 173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_1000",
+            "value": 759470,
+            "range": "± 3505",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_10000",
+            "value": 12304554,
+            "range": "± 433540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fast_50000_similar",
+            "value": 28972086,
+            "range": "± 4250623",
             "unit": "ns/iter"
           }
         ]
